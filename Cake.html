@@ -9,16 +9,19 @@
 
 <body>
     <script>
-        var choice = prompt("Do you want cake? (yes or no) ");
+        var cake = prompt("Do you want cake? (yes or no) ");
         //=== is the operator to assign, || is the or statement
-        if (choice === "yes" || cake === "Yes") {
+        if (cake === "yes" || cake === "Yes" || cake === "y" || cake === "Y") {
             console.log("Great! Heres some cake!");
             //document.write allows us to show it on the screen
             document.write("Great! Heres some cake!");
         }
-        else {
+        else if (cake === "no" || cake === "No" || cake === "n" || cake === "N") {
             console.log("NO CAKE FOR YOU!");
             document.write("NO CAKE FOR YOU!");
+        } else {
+            console.log("Did you even read the responses? lol");
+            document.write("Did you even read the responses? lol")
         }
     </script>
 
