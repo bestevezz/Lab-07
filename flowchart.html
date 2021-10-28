@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var move = prompt("Does it move? (yes/no)");
+        if (move == "yes") {
+            var should = prompt("Should it? (yes/no)");
+            if (should == "yes") {
+                console.log("No problem");
+            } else if (should == "no") {
+                console.log("Then use duct tape!!!");
+            } else {
+                console.log("Answer my question! You didn't type yes or no.");
+            }
+        } else if (move == "no") {
+            var should = prompt("Should it? (yes/no)");
+            if (should == "yes") {
+                console.log("Then use WD40!");
+            } else if (should == "no") {
+                console.log("No problem");
+            }
+        } else {
+            console.log("Answer my question! You didn't type yes or no.");
+        }
+    </script>
+
+</body>
+
+</html>
